@@ -1,0 +1,35 @@
+---
+metadata:
+    display_name: Checkboxes
+
+
+data: |
+    <div class="experiment" style="margin:0;padding:0;">
+      <p style="width:110px;word-wrap:break-word;font-size:15px">实验要求：</p>
+      <textarea id="requirement" type="text" value="" style="position:relative;width:100%;height:100%;font-family:'Arial Normal','Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#000000;text-align:left"/>
+      <p></p>
+      <p style="width:110px;word-wrap:break-word;font-size:15px">实验环境：</p>
+      <textarea id="environment" type="text" value="" style="position:relative;width:100%;height:100%;font-family:'Arial Normal','Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#000000;text-align:left"/>
+      <p></p>
+      <div style="text-align:center">
+      <input id="enter_experiment" type="submit" value="进入实验" style="text-align:center;position:ralative;height:100%;font-family:'Arial Normal','Arial';font-weight:400;font-style:normal;font-size:15px;text-decoration:none;color:#000000;text-align:center"/>
+      </div>
+      <p style="width:110px;word-wrap:break-word;font-size:15px">实验结果：</p>
+      <textarea id="result" type="text" value="" style="width:100%;height:100%;font-family:'Arial Normal','Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#000000;text-align:left"/>
+      <p></p>
+      <div style="text-align:center">
+      <input id="answer" type="submit" value="参考答案" align="center" style="height:100%;font-family:'Arial Normal','Arial';font-weight:400;font-style:normal;font-size:15px;text-decoration:none;color:#000000;text-align:center"/>
+      </div>
+      <p></p>
+      <textarea id="anser" type="text" value="" style="width:100%;height:100%;font-family:'Arial Normal','Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#000000;text-align:left"/>
+      <p></p>
+      <tr>
+
+      <div style="text-align:center;margin:auto;">
+      <input id="sub" type="submit" value="提交" style=";height:100%;font-family:'Arial Normal','Arial';font-weight:400;font-style:normal;font-size:15px;text-decoration:none;color:#000000;text-align:center"/>
+      <input id="reset" type="submit" value="重置" style="height:100%;font-family:'Arial Normal','Arial';font-weight:400;font-style:normal;font-size:15px;text-decoration:none;color:#000000;text-align:center"/>
+      </div>
+
+      </tr>
+     </div>
+
